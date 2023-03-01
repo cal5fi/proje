@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alice';
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/static/img/foto3.png);
+    background-size: cover;
+    
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: beige;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: saddlebrown;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px 25px;
+}
+nav ul li a{
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: saddlebrown;
+    transition: .4s;
+}
+
+.btn{
+    background-color: saddlebrown;
+    color: beige;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translatY(-50%);
+}
+h4{
+    color: rgb(14, 7, 0);
+    margin: 20px 0px 20px;
+    font-size: 75px; 
+    margin-bottom: 2px; 
+}
+h3{
+    color: rgb(32, 32, 32);
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-left: 5.5px;
+}
+
+
+.Sobre{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(214, 178, 134);
+}
+.sobre img{
+    height: auto;
+    width: 430px;
+}
+.sobre-texto{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+.sobre-texto h2{
+    color:rgb(14, 7, 0);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sobre-texto p{
+    color: rgb(14, 7, 0);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+
+.metas{
+    margin: 0;
+    background: beige;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text a{
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+.text p{
+    font-size: 0.9em;
+    line-height: 23px;
+}
+.text h1{
+    margin: 0;
+}
+.as{
+    width: 45em;
+    color: white;
+    display: flex;
+    background: #111;
+    margin: 2em 0;  
+}
+.text{
+    padding: 1.5em;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.img{
+    width: 50%;
+    height: 17em;
+    position: relative;
+    overflow: hidden;
+}
+
+.metas img{
+    width: 140%;
+}
+
+.metas h2{
+    color:black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.centerlize {
+    margin: 0 auto !important;
+    text-align: center;
+  }
+  
+  progress,
+  ::-webkit-progress-value {
+    width: 500px;
+    background-color: aqua;
+  }
+
+@media screen and (max-width:750px) {
+    .as{
+        display: block;
+        width: 20em;
+    }
+    .img, .text{
+        width: 100%;
+    }
+    img{
+        width: 160%;
+    }
+    progress, ::-webkit-progress-value{
+        width: 250px;
+    }
+}
+
+.sugestao{
+    margin: 0;
+    background: rgb(214, 178, 134);
+    display: flex;
+    min-height: 20vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sug{
+    width: 45em;
+    color: black;
+    display: flex;
+    background: beige;
+    margin: 2em 0;  
+}
